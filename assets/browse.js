@@ -1,7 +1,3 @@
-for(const image of document.querySelectorAll('.historic')){
- const show=()=>{if(image.naturalWidth) image.closest('figure').classList.add('loaded')};
- image.addEventListener('load',show);show();
-}
 const form=document.querySelector('.filters');
 if(form){
  const controls=[...form.elements].filter(el=>el.name);

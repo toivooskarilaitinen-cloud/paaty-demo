@@ -73,3 +73,7 @@
   .latest,.headlines { border-left:0; border-top:1px solid; padding:1rem 0 0; }
   .brief-year { width:3.6rem; }
 }
+
+.sport-index {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:0 2rem;margin:2rem 0;}
+.sport-index a {padding:1.1rem 0;border:0;border-top:1px solid #aaa;font:700 1.45rem/1.25 Georgia,serif;}
+.sport-index a:hover {color:#101010;background:transparent;text-decoration:underline;text-decoration-color:#ff5722;}
