@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://toivooskarilaitinen-cloud.github.io/paaty-demo/sitemap.xml
