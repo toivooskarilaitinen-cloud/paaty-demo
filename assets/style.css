@@ -46,10 +46,6 @@
   .lead-story .photo-frame { aspect-ratio: 1.65; }
   .prose { font-size: 1.13rem; line-height: 1.65; }
 }
-.topics { background:#262626; color:white; }
-.topics .wrap { display:flex; flex-wrap:wrap; gap:.3rem 1.6rem; }
-.topics a { display:inline-block; padding:.68rem 0; font-size:.86rem; text-decoration:none; }
-.topics a:hover { text-decoration:underline; text-decoration-color:#ff5722; }
 .front-grid { grid-template-columns:minmax(0,1.6fr) minmax(0,1.13fr) minmax(0,.88fr); gap:clamp(1rem,2vw,2.5rem); }
 .lead-story .photo-frame { aspect-ratio:1.52; }
 .lead-text h1 { font-size:clamp(2.15rem,3.35vw,4.1rem); }
@@ -75,7 +71,5 @@
 @media(max-width:740px) {
   .front-grid { grid-template-columns:minmax(0,1fr); }
   .latest,.headlines { border-left:0; border-top:1px solid; padding:1rem 0 0; }
-  .topics .wrap { column-gap:1.05rem; }
-  .topics a { font-size:.76rem; }
   .brief-year { width:3.6rem; }
 }
